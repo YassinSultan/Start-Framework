@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import NotFound from "./components/NotFound/NotFound";
+import Home from "./components/Home/Home";
 let routes = createBrowserRouter([
   {
     path: "/",
@@ -12,6 +13,10 @@ let routes = createBrowserRouter([
     children: [
       {
         index: true,
+        element: <Home />,
+      },
+      {
+        path: "about",
         element: <About />,
       },
       {

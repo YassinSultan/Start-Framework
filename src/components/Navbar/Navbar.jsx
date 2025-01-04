@@ -25,7 +25,7 @@ export default function Navbar() {
                 <NavLink
                   className="nav-link text-light"
                   aria-current="page"
-                  to={"/"}
+                  to={"about"}
                 >
                   About
                 </NavLink>
